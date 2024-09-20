@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <META charset="UTF-8">
+    <META NAME="viewport" content="width=device"-width,
+    initial-scale="1.0">
+    <title>SWOOSH WOOP</title>
+</head>
+<body>
+    <div classic="container">
+        <h1>SWOOSH WOOP</h1>
+        <form action="index.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="'jersey">Jersey type:</label>
+            <select name="jersey" id="jersey">
+                 <option value="lebron">Lebron - 800</option>
+                 <option value="curry">Curry - 700</option>
+                 <option value="durant">Durant - 600</option>
+            </select>
+            
+            <label for="size">size</label>
+            <input type="radio" name="size" id="small"
+            value="small">
+            <label for="small">small</label>
+
+            <input type="radio" name="size" id="medium"
+            value="medium">
+            <label for="medium">medium</label>
+
+            <input type="radio" name="size" id="large"
+            value="large">
+            <label for="large">large</label>
+            
+            <label for="cotton">Type</label>
+            <input type="checkbox" name="Type[]" id="Cotton"
+            value="Cotton">
+            <label for="cotton">cotton - 500</label>
+
+            <input type="checkbox" name="Type[]" id="Headband"
+            value="headband">
+            <label for="headband">headband - 200</label>
+
+            <label for="instructions">Instructions:</label>
+            <textarea name="instructions" id="instructions"
+            rows="1"></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>    
+
+</body>
+</html>
